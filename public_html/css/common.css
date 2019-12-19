@@ -1,0 +1,72 @@
+
+input{cursor: text}
+button{cursor: pointer}
+nav{transition: 1s all}
+nav div,h3{cursor: pointer!important;}
+.title-class{
+    color: #009879 !important;
+    font-family: Roboto;
+}
+.popup-class{
+    background: #fff;
+}
+
+.searchResult{
+    overflow-y: auto;
+}
+
+.searchResult>div{
+    text-align: left;
+    padding: 5px;
+    margin: 5% 0;
+    width: 90%;
+    transition: background-color 0.2s;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    cursor: pointer;
+}
+
+.searchResult::-webkit-scrollbar {
+    width: 5px;
+}
+
+.searchResult::-webkit-scrollbar-track {}
+
+.searchResult::-webkit-scrollbar-thumb {
+    background-color: #213667;
+    height: 10px;
+}
+
+.searchResult>div:hover{
+    background-color: rgba(0, 155, 121, 0.4);
+}
+
+.searchResult>div>h3{
+    margin: 0 0;
+    font-family: Roboto;
+    padding-left:10px;
+}
+
+.searchResult>div>:nth-child(1){
+    text-align: left;
+    display: inline-block;
+}
+
+.searchResult>div>:nth-child(2){
+    display: inline-block;
+    margin-left: 30px;
+}
+
+tbody>tr>td{
+    cursor: pointer !important;
+}
+
+tbody>tr:hover{
+    background: rgba(0, 155, 121, 0.4);
+}
+
+tbody>tr:nth-child(even):hover{
+    background: rgba(0, 155, 121, 0.4) !important;
+}
+
+*{outline: none;cursor: default}

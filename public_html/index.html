@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DashBoard</title>
+    <link rel="icon" href="assets/logo-att-color-trans-200x200.png" type="img/png">
+    <link id="CssIndex" rel="stylesheet" href="css/dashboard/dashboard.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link id="CssIndexMedia" rel="stylesheet" href="css/dashboard/dashboard768media.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/all.css">
+</head>
+<body>
+<nav>
+    <img src="assets/logo-att-color-trans-200x200.png" alt="logo" width="40%">
+    <img src="assets/pandora.png" alt="brand name" width="90%">
+    <a id="dashboardhtml">
+        <div>
+            <h3 id="h3dashboard">DashBoard</h3>
+        </div>
+    </a>
+    <a id="poshtml">
+        <div>
+            <h3 id="h3pos">POS</h3>
+        </div>
+    </a>
+    <a id="manageItemhtml">
+        <div>
+            <h3 id="h3item">Manage Items</h3>
+        </div>
+    </a>
+    <a id="manageCustomerhtml">
+        <div>
+            <h3 id="h3customer">Manage Customers</h3>
+        </div>
+    </a>
+    <a id="viewOrderhtml">
+        <div>
+            <h3 id="h3viewOrder">View Orders</h3>
+        </div>
+    </a>
+    <a id="">
+        <div>
+            <h3>Settings</h3>
+        </div>
+    </a>
+</nav>
+<header>
+    <h3 id="header">DashBoard</h3>
+</header>
+
+<!--DashBoard-->
+<main id="dashboard">
+    <section>
+        <article>
+            <div>
+                <img src="assets/apple-iphone-xr.png" alt="" width="100%">
+                <img src="assets/google_pixel_3a_xl_1.jpg" alt="" width="100%">
+                <img src="assets/one_plus_7_pro.jpg" alt="" width="100%">
+                <img src="assets/iphone_xs_max_jpack.jpg" alt="" width="100%">
+            </div>
+        </article>
+        <article>
+            <div>
+                <img src="assets/galaxyWatchMid.jpg" alt="" width="100%" style="position: relative; top: -90px;">
+                <img src="assets/huawei-watch.jpg" alt="" width="100%" style="position: relative; top: -90px;">
+                <img src="assets/blitzwolf.jpg" alt="" width="100%" style="position: relative; top: -150px;">
+            </div>
+        </article>
+        <article>
+            <div>
+                <img src="assets/apple-watch.png" alt="" width="100%" style="position: relative; top: -113px;">
+                <img src="assets/Sony.jpg" alt="" width="100%" style="position: relative; top: -113px;">
+            </div>
+        </article>
+    </section>
+    <section>
+        <article>
+            <h3>Special Deals</h3>
+            <img src="assets/galaxy-watch-black.png" alt="" height="75%">
+            <img src="assets/huawei-watch-2-classic.png" alt="" height="60%">
+            <div>
+                <h4>Galaxy Watch 3</h4>
+                <h4>Huawei Watch 2 Classic</h4>
+                <h4>Google Home Mini</h4>
+                <h4>Google Home</h4>
+                <h4>Amazon Echo Dot</h4>
+                <h4>Apple Ipad Pro 11'</h4>
+                <h4>Apple Watch 3 NIKE+</h4>
+            </div>
+        </article>
+        <article>
+            <h3>Most Popular</h3>
+            <img src="assets/pixel-3-black_2.png" alt="" height="70%">
+            <div>
+                <h4>Google Pixel 3 XL</h4>
+                <h4>Apple Iphone X</h4>
+                <h4>Apple Iphone Xs MAX</h4>
+                <h4>Samsung Galaxy S7 128GB</h4>
+            </div>
+        </article>
+        <article>
+            <h3>Accessories</h3>
+            <img src="assets/6700.png" alt="" height="70%">
+            <div>
+                <h4>Ancher Power Bank</h4>
+                <h4>Samsung usb type-c adapter</h4>
+
+                <h4></h4>
+            </div>
+        </article>
+        <article>
+            <h3>Gadgets</h3>
+            <img src="assets/amazon-echo.png" alt="" height="70%">
+            <div>
+                <h4>Amazon Echo</h4>
+                <h4>Samsung Dex Station</h4>
+                <h4>Apple TV 4k</h4>
+                <h4>Chromecast Ultra</h4>
+                <h4>Samsung Gear VR</h4>
+            </div>
+        </article>
+    </section>
+</main>
+
+<!--pos-->
+<main id="POS">
+    <section>
+        <article>
+            <h3>Customer Info</h3>
+            <form action="" id="customerAddForm">
+                <input type="text" name="" id="txtName" placeholder="Full Name">
+                <input type="tel" name="" id="txtContact" placeholder="Contact">
+                <input type="text" name="" id="txtAddress" placeholder="Address">
+                <button type="button" id="cusAdd">Add</button>
+            </form>
+            <div></div>
+            <h5>OR</h5>
+            <div>
+                <input type="search" id="txtSearchCustomer" placeholder="Search Customer">
+                <button id="btnSearchCustomer" type="button">
+                    <i class="fas fa-search"></i>
+                </button>
+                <div id="searchCustomerResult" class="searchResult"></div>
+            </div>
+        </article>
+        <article>
+            <h3>Order Review</h3>
+            <h4 id="selectedCustomer">Customer Name</h4>
+            <article>
+                <input id="txtSearchItem" type="search" placeholder="Search Items">
+                <button id="btnSearchItem" type="button">
+                    <i class="fas fa-search"></i>
+                </button>
+                <div id="searchItemResult" class="searchResult">
+                </div>
+            </article>
+            <article>
+                <div>
+                    <h3>Item</h3>
+                    <h3>Stock</h3>
+                    <h3>Price</h3>
+                    <form action="" id="addItemToOrder">
+                        <input type="number" placeholder="QTY" value="1">
+                        <input type="text" placeholder="Discount" value="00">
+                        <input type="text" placeholder="Amount" value="00">
+                        <button type="button">Add to List</button>
+                    </form>
+                </div>
+                <div>
+                    <table>
+                        <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>QTY</th>
+                            <th>Discount</th>
+                            <th>Amount</th>
+                        </tr>
+                        </thead>
+                        <tbody id="tblItemDetail">
+                        </tbody>
+                        <tfoot>
+                        <tr>
+                            <td colspan="4">Total :</td>
+                            <td id="total">00.00</td>
+                        </tr>
+                        </tfoot>
+                    </table>
+                </div>
+                <form action="">
+                    <button id="btnResetPlaceOrder" type="reset">Reset</button>
+                    <button id="placeOrder" type="button">Place Order</button>
+                </form>
+            </article>
+        </article>
+    </section>
+</main>
+
+<!--item-->
+<main id="item">
+    <section>
+        <article>
+            <h3>Search Items</h3>
+            <div>
+                <input id="txtSearchItems" type="search">
+                <button id="btnSearchItems" type="submit">
+                    <i class="fas fa-search"></i>
+                </button>
+                <div id="searchItemsResult" class="searchResult"></div>
+            </div>
+        </article>
+        <article>
+            <h3>Item View</h3>
+            <div>
+                <form action="" id="itemform">
+                    <input type="text" placeholder="Item Description">
+                    <input type="tel" placeholder="Qty">
+                    <input type="text" placeholder="Brand">
+                    <input type="text" placeholder="Buying Price">
+                    <input type="text" placeholder="Selling Price">
+                    <button type="button" id="btnDeleteItem">Delete</button>
+                    <button type="button" id="btnUpdateItem">Update Item</button>
+                    <button type="button" id="btnAddItem">Add New</button>
+                </form>
+            </div>
+            <div>
+                <div>
+                    <table>
+                        <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Brand</th>
+                            <th>Qty</th>
+                            <th>Buy.Pr</th>
+                            <th>Sell.Pr</th>
+                        </tr>
+                        </thead>
+                        <tbody id="tblItems">
+                        <tr>
+                            <td>001</td>
+                            <td>Iphone X</td>
+                            <td>Apple</td>
+                            <td>10</td>
+                            <td>120,000</td>
+                            <td>156,000</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </article>
+    </section>
+</main>
+
+<!--customer-->
+<main id="customer">
+    <section>
+        <article>
+            <h3>Search Customer</h3>
+            <div>
+                <input type="search" id="txtCustomerSearch">
+                <button type="submit" id="btnCustomerSearch">
+                    <i class="fas fa-search"></i>
+                </button>
+                <div id="searchCusResult" class="searchResult"></div>
+            </div>
+        </article>
+        <article>
+            <h3>Customer View</h3>
+            <div>
+                <form action="" id="customerUpdateForm">
+                    <input type="text" placeholder="Full Name">
+                    <input type="tel" placeholder="Contact No">
+                    <input type="text" placeholder="Address">
+                    <button type="button" id="btnDeleteCustomer">Delete</button>
+                    <button type="button" id="btnUpdateCustomer">Update Customer</button>
+                </form>
+            </div>
+            <div>
+                <div>
+                    <table>
+                        <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Contact</th>
+                            <th>Address</th>
+                        </tr>
+                        </thead>
+                        <tbody id="tblCustomers">
+                        <tr>
+                            <td>001</td>
+                            <td>Ravindu</td>
+                            <td>0770180886</td>
+                            <td>Horana</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </article>
+    </section>
+</main>
+
+<!--ViewOrder-->
+<main id="viewOrder">
+    <section>
+        <article>
+            <h3>Search Orders</h3>
+            <div>
+                <input id="txtSearchOrders" type="search">
+                <button id="btnSearchOrders" type="submit">
+                    <i class="fas fa-search"></i>
+                </button>
+                <div id="searchOrdersResult" class="searchResult"></div>
+            </div>
+        </article>
+        <article>
+            <h3>Orders View</h3>
+            <h4 id="customerId">C ID</h4>
+            <h4 id="customerName">Customer Name</h4>
+            <div>
+                <div id="orderView">
+                    <h4>No. of Items</h4>
+                    <h4>Discount</h4>
+                    <h4>Amount</h4>
+                </div>
+                <div>
+                    <table>
+                        <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Description</th>
+                            <th>QTY</th>
+                            <th>Discount</th>
+                            <th>Amount</th>
+                        </tr>
+                        </thead>
+                        <tbody id="tblOrderDetail">
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </article>
+    </section>
+    <section>
+        <article>
+            <h3>Total Orders</h3>
+            <div>
+                <table>
+                    <thead>
+                    <tr>
+                        <th>CID</th>
+                        <th>Customer</th>
+                        <th>Order ID</th>
+                        <th>No.of Item</th>
+                        <th>Total</th>
+                    </tr>
+                    </thead>
+                    <tbody id="totalOrder">
+
+                    </tbody>
+                </table>
+            </div>
+        </article>
+    </section>
+</main>
+
+<script src="js/jquery/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+<script src="js/model/Item.js"></script>
+<script src="js/model/Customer.js"></script>
+<script src="js/model/Order.js"></script>
+<script src="js/model/OrderDetails.js"></script>
+<script src="js/db/DB.js"></script>
+<script src="js/controller/DashBoardController.js"></script>
+<script src="js/controller/POSController.js"></script>
+<script src="js/controller/ItemController.js"></script>
+<script src="js/controller/CustomerController.js"></script>
+<script src="js/controller/ViewOrderController.js"></script>
+
+</body>
+</html>

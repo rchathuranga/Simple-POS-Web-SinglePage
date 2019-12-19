@@ -1,0 +1,265 @@
+
+
+@media all and (max-width: 768px) {
+
+    body {
+        background: #EBEBEB;
+    }
+
+    nav {
+        width: 100%;
+        height: 102px;
+        z-index: 100;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    nav > :nth-child(1) {
+        height: 70%;
+        width: auto;
+        left: 10px;
+        right: unset;
+    }
+
+    nav > :nth-child(2) {
+        height: 55%;
+        width: auto;
+        left: unset;
+        top: 10px;
+        right: 10px;
+    }
+
+    nav>a{
+        color: white;
+    }
+
+    nav > a > div {
+        font-size: 10px;
+        position: relative;
+        top: 80px;
+        width: 98%;
+        height: 40px;
+        margin: 0 0 0 0;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        background: #213667;
+        color: white;
+        border-top: 2px solid white;
+        border-left: 1px solid white;
+        border-right: 1px solid white;
+    }
+
+    nav > a > div > h3 {
+        padding-top: 12px;
+        color: white;
+    }
+
+    nav > :nth-child(6) > div > h3 {
+        padding-top: 5px;
+    }
+    header {
+        display: none;
+    }
+
+    main {
+        position: relative;
+        width: 100%;
+        top: 122px;
+        height: 900px;
+        /*height: max-content;*/
+    }
+
+
+    main > section:nth-child(1) {
+        height: 825px;
+        text-align: center;
+    }
+
+    main > section:nth-child(1) > article {
+        position: absolute;
+        display: inline-block;
+        background: white;
+        box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    main > section:nth-child(1) > :nth-child(1) {
+        width: 95%;
+        height: 300px;
+        left: 0;
+        top: 10px;
+        position: relative;
+        right: 0;
+        overflow: hidden;
+        margin: 0 auto 0 auto;
+        border: 2px solid #213667;
+        border-radius: 10px;
+    }
+
+    main>:nth-child(1)>:nth-child(1)>div>div {
+        height: 210px;
+    }
+
+    main > section:nth-child(1) > :nth-child(1) > h3 {
+        margin-left: 10px;
+        text-align: left;
+    }
+
+    main>section:nth-child(1)>:nth-child(1)>form>button{
+        position: relative;
+        display: inline-block;
+        width: 70%;
+        height: 25px;
+        left: unset;
+    }
+
+    main > section:nth-child(1) > :nth-child(2) {
+        position: relative;
+        top: 30px;
+        width: 95%;
+        height: 460px;
+        overflow: hidden;
+        left: unset;
+        right: unset;
+        text-align: center;
+        border: 2px solid #213667;
+        border-radius: 10px;
+    }
+
+    main > section:nth-child(1) > :nth-child(2) > h3 {
+        margin-left: 10px;
+    }
+
+    main>:nth-child(1)>:nth-child(2)>h4{
+        margin: 10px 0 0 0;
+        top: 0;
+        display: inline-block;
+        text-align: center;
+        position: relative;
+        background: #F1F1F1;
+        color: #444444;
+        font-size: 17px;
+        padding-top: 3px;
+        height: 25px;
+    }
+
+    main > section:nth-child(1) > :nth-child(2) > :nth-child(2) {
+        width: 20%;
+        margin-right: 10px;
+    }
+
+    main > section:nth-child(1) > :nth-child(2) > :nth-child(3) {
+        width: 75%;
+        left: 0;
+    }
+
+    main > section:nth-child(1) > :nth-child(2) > :nth-child(4) {
+        position: relative;
+        width: 98%;
+        top: 15px;
+        right: 0;
+        left: 0;
+        margin: 0 auto 0 auto;
+        height: 370px;
+        background: #E4E4E4;
+    }
+
+    main>section:nth-child(1)>:nth-child(2)>:nth-child(4)>:nth-child(1) {
+        height: 90px;
+        padding-top: 10px;
+        width: 97%;
+    }
+
+    main > section:nth-child(1) > :nth-child(2) > :nth-child(4) > :nth-child(1) > h3{
+        margin: 2px 0 2px 0;
+    }
+
+    main > section:nth-child(1) > :nth-child(2) > :nth-child(4) > :nth-child(1) > :nth-child(1) {
+        width: 90%;
+        position: relative;
+        left: 0;
+    }
+
+    main > section:nth-child(1) > :nth-child(2) > :nth-child(4) > :nth-child(1) > :nth-child(2) {
+        width: 40%;
+        left: 0;
+        position: relative;
+    }
+
+    main > section:nth-child(1) > :nth-child(2) > :nth-child(4) > :nth-child(1) > :nth-child(3) {
+        width: 50%;
+        position: relative;
+        left: 0;
+    }
+
+    main>section:nth-child(1)>:nth-child(2)>:nth-child(4)>:nth-child(1)>:nth-child(4) {
+        position: absolute;
+        top: 80px;
+        width: 100%;
+        height: 75%;
+        display: block;
+    }
+
+    main>section:nth-child(1)>:nth-child(2)>:nth-child(4)>:nth-child(1)>:nth-child(4)>input{
+        width: 80%;
+        height: 20px;
+        margin-bottom: 8px;
+    }
+
+    main>section:nth-child(1)>:nth-child(2)>:nth-child(4)>:nth-child(1)>:nth-child(4)>button{
+        position: absolute;
+        top: 135px;
+        right: 0;
+        left: 0;
+        margin: auto;
+        width: 70%;
+    }
+
+    main > section:nth-child(1) > :nth-child(2) > :nth-child(4) > :nth-child(2) {
+        width: 97%;
+        height: 240px;
+        position: relative;
+        left: 0;
+        top: 15px;
+        right: 0;
+        margin: auto;
+        background: white;
+    }
+
+    main > section:nth-child(1) > :nth-child(2) > :nth-child(4) > :nth-child(3) {
+        height: 30px;
+        position: relative;
+        top: 280px;
+        text-align: center;
+        right: 0;
+    }
+
+    main > section:nth-child(1) > :nth-child(2) > :nth-child(4) > :nth-child(3) > button {
+        width: 80%;
+        height: 35px;
+        font-family: Arial;
+        display: inline-block;
+        margin-bottom: 20px;
+        border-radius: 4px;
+        background: #213667;
+        border: none;
+        color: white;
+    }
+
+    main>:nth-child(2)>article {
+        width: 95%;
+        height: 94%;
+        margin-top: 5px;
+        background: white;
+        display: inline-block;
+        position: relative;
+        border: 2px solid #213667;
+        border-radius: 10px;
+        box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    main>:nth-child(2)>article>h3{
+        margin-left: 10px;
+    }
+
+}

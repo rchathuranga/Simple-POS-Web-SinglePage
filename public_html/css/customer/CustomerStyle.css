@@ -1,0 +1,289 @@
+
+nav{
+    position: fixed;
+    width: 13%;
+    height: 100vh;
+    min-width: 100px;
+    background: #213667;
+    z-index: 1;
+    transition: .6s all;
+}
+
+nav>:nth-child(1){
+    position: absolute;
+    left: 0;
+    top: 2%;
+    right: 0;
+    min-width: 60px;
+    margin: auto;
+}
+
+nav>:nth-child(2){
+    position: absolute;
+    left: 0;
+    top: 18%;
+    right: 0;
+    margin: auto;
+
+}
+
+nav>a{
+    text-decoration: none;
+}
+
+
+nav>a>div{
+    position: relative;
+    top: 220px;
+    width: 90%;
+    height: 40px;
+    margin: 30px 0 0 0;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background: white;
+}
+
+nav>a>div:hover{
+    background: #1C894A;
+}
+
+nav>a>div:hover h3{
+    color: white;
+}
+
+nav>a>div>h3{
+    text-align: center;
+    padding: 8px 0 0 0;
+    color: #213667;
+    font-family: "Avenir LT Std";
+    margin: 0;
+}
+
+nav>:nth-child(3){
+}
+
+header{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 87%;
+    height: 45px;
+    background: #1C894A;
+    text-align: center;
+}
+
+header>h3{
+    font-size: 20px;
+    color: white;
+    margin: 10px 0 0 0;
+    font-family: "ROG Fonts";
+}
+
+main{
+    position: absolute;
+    width: 87%;
+    height: 93.5%;
+    /*height: max-content;*/
+    top: 45px;
+    right: 0;
+}
+
+main>section{
+    height: 95%;
+    position: relative;
+    background: #E4E4E4;
+}
+
+main>section>article{
+    width: 22%;
+    position: absolute;
+    display: inline-block;
+    height: 90%;
+    background: white;
+}
+
+main>section>:nth-child(1){
+    top: 20px;
+    left: 45px;
+    overflow: hidden;
+}
+
+main>section>:nth-child(1)>div{
+    text-align: center;
+}
+
+main>section>:nth-child(1)>div>input{
+    width: 85%;
+    height: 30px;
+    top: 22px;
+    background: #E4E4E4;
+    display: inline-block;
+    border: 2px solid #1C894A;
+    border-radius: 30px;
+    position: relative;
+    outline: none;
+    padding-left: 15px;
+}
+
+main>section>:nth-child(1)>div>button{
+    border: none;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 44px;
+    background: #1C894A;
+    color: white;
+    outline: none;
+    right: 7%;
+    z-index: 10;
+    border-radius: 30px;
+}
+
+main>section>:nth-child(1)>div>div{
+    height: 475px;
+    width: 85%;
+    position: relative;
+    top: 30px;
+    display: inline-block;
+    background: #E4E4E4;
+    margin-top: 20px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+main>section>article>h3{
+    margin: 0;
+    font-size: 20px;
+    font-family: "Avenir LT Std";
+}
+
+main>section>:nth-child(2){
+    top: 20px;
+    width: 60%;
+    right: 10%;
+}
+
+main>section>:nth-child(2)>div{
+    position: relative;
+    height: 150px;
+}
+
+main>section>:nth-child(2)>:nth-child(2)>form{
+    /*background: #E4E4E4;*/
+    height: 100px;
+    text-align: center;
+}
+
+main>section>:nth-child(2)>:nth-child(2)>form>input{
+    position: relative;
+    display: inline-block;
+    height: 25px;
+    outline: none;
+    font-family: Roboto;
+    font-size: 15px;
+    color: #707070;
+    border: none;
+    margin: 15px 0 0 0;
+    padding: 0 0 2px 20px;
+    border-bottom: 1.5px solid #1C894A;
+}
+
+main>section>:nth-child(2)>:nth-child(2)>form>:nth-child(1){
+    width: 70%;
+}
+
+main>section>:nth-child(2)>:nth-child(2)>form>:nth-child(2){
+    width: 25%;
+    left: -5px;
+}
+
+main>section>:nth-child(2)>:nth-child(2)>form>:nth-child(3){
+    width: 43%;
+    left: 5px;
+}
+
+main>section>:nth-child(2)>:nth-child(2)>form>button{
+    height: 25px;
+    font-family: Arial;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    bottom: 0;
+    display: block;
+}
+
+main>section>:nth-child(2)>:nth-child(2)>form>:nth-child(4){
+    right: 43%;
+    position: absolute;
+    width: 80px;
+    color: red;
+    background: white;
+    border: 1.5px solid #cecece;
+}
+
+main>section>:nth-child(2)>:nth-child(2)>form>:nth-child(4):hover{
+    border-color: red;
+}
+
+main>section>:nth-child(2)>:nth-child(2)>form>:nth-child(5){
+    width: 28%;
+    right: 12%;
+    position: absolute;
+    background: #1C894A;
+}
+
+main>section>:nth-child(2)>:nth-child(3){
+    width: 95%;
+    height: 395px;
+    background: #E4E4E4;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+
+main>section>:nth-child(2)>:nth-child(3)>div{
+    width: 95%;
+    margin: 10px 0 0 0;
+    display: inline-block;
+    overflow: auto;
+    height: 375px;
+}
+
+main>section>:nth-child(2)>:nth-child(3)>div>table{
+    width: 100%;
+    background: white;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+
+main>section>:nth-child(2)>:nth-child(3)>div>table>thead{
+    text-align: center;
+}
+
+main>section>:nth-child(2)>:nth-child(3)>div>table>thead>tr{
+    background: #009879;
+    height: 25px;
+    color: white;
+    font-weight: normal;
+    font-family: Roboto;
+}
+
+main>section>:nth-child(2)>:nth-child(3)>div>table>thead>tr>th, td{
+    padding: 8px 15px;
+}
+
+
+main>section>:nth-child(2)>:nth-child(3)>div>table>tbody>tr{
+    border-bottom: 1px solid #dddddd;
+}
+
+main>section>:nth-child(2)>:nth-child(3)>div>table>tbody>tr:nth-child(even){
+    background: #f3f3f3;
+}
+
+main>section>:nth-child(2)>:nth-child(3)>div>table>tbody>tr:last-of-type{
+    border-bottom: 2px solid #009879;
+}

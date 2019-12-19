@@ -1,0 +1,347 @@
+nav{
+    position: fixed;
+    width: 13%;
+    height: 100vh;
+    min-width: 100px;
+    background: #213667;
+    z-index: 1;
+    transition: .6s all;
+}
+
+nav>:nth-child(1){
+    position: absolute;
+    left: 0;
+    top: 2%;
+    right: 0;
+    min-width: 60px;
+    margin: auto;
+}
+
+nav>:nth-child(2){
+    position: absolute;
+    left: 0;
+    top: 18%;
+    right: 0;
+    margin: auto;
+
+}
+
+nav>a{
+    text-decoration: none;
+}
+/*55px*/
+nav>a>div{
+    position: relative;
+    top: 220px;
+    width: 90%;
+    height: 40px;
+    margin: 30px 0 0 0;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background: white;
+}
+
+nav>a>div:hover{
+    background: #1C894A;
+}
+
+nav>a>div:hover h3{
+    color: white;
+}
+
+nav>a>div>h3{
+    text-align: center;
+    padding: 8px 0 0 0;
+    color: #213667;
+    font-family: "Avenir LT Std";
+    margin: 0;
+}
+
+nav>:nth-child(3){
+}
+
+header{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 87%;
+    height: 45px;
+    background: #1C894A;
+    text-align: center;
+}
+
+header>h3{
+    font-size: 20px;
+    color: white;
+    margin: 10px 0 0 0;
+    font-family: "ROG Fonts";
+}
+
+main{
+    position: absolute;
+    width: 87%;
+    height: 93.5%;
+    /*height: max-content;*/
+    top: 45px;
+    right: 0;
+}
+
+main>section{
+    position: relative;
+    background: #EBEBEB;
+}
+
+main>:nth-child(1){
+    padding-top: 10px;
+    height: 360px;
+    position: relative;
+}
+
+main>:nth-child(1)>:nth-child(1){
+    width: 22%;
+    height: 95%;
+    background: white;
+    margin: 0 0 0 15px;
+}
+
+main>:nth-child(1)>:nth-child(1)>h3{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: "Avenir LT Std";
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    -webkit-appearance:none;
+}
+
+main>:nth-child(1)>:nth-child(1)>div{
+    text-align: center;
+    position: relative;
+    overflow: auto;
+    top: 20px;
+}
+
+main>:nth-child(1)>:nth-child(1)>div>input{
+    width: 85%;
+    height: 30px;
+    background: #E4E4E4;
+    display: inline-block;
+    border: 2px solid #1C894A;
+    border-radius: 30px;
+    position: relative;
+    outline: none;
+    padding-left: 15px;
+}
+
+main>:nth-child(1)>:nth-child(1)>div>button{
+    border: none;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    background: #1C894A;
+    color: white;
+    outline: none;
+    right: 7%;
+    z-index: 10;
+    border-radius: 30px;
+}
+
+main>:nth-child(1)>:nth-child(1)>div>div{
+    height: 250px;
+    width: 85%;
+    display: inline-block;
+    position: relative;
+    background: #E4E4E4;
+    margin-top: 20px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+main>:nth-child(1)>:nth-child(2){
+    position: absolute;
+    top: 10px;
+    left: 25%;
+    width: 74%;
+    height: 92.5%;
+    text-align: center;
+    background: white;
+}
+
+main>:nth-child(1)>:nth-child(2)>h3{
+    margin: 0;
+    font-size: 20px;
+    text-align: left;
+    font-family: "Avenir LT Std";
+}
+
+main>:nth-child(1)>:nth-child(2)>h4{
+    margin: 10px 0 0 10px;
+    width: 73%;
+    top: 0;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    background: #F1F1F1;
+    color: #444444;
+    font-size: 17px;
+    padding-top: 3px;
+    height: 25px;
+}
+
+main>:nth-child(1)>:nth-child(2)>:nth-child(2){
+    width: 22%;
+}
+
+main>:nth-child(1)>:nth-child(2)>:nth-child(3){
+    left: -10px;
+}
+
+main>:nth-child(1)>:nth-child(2)>:nth-child(4){
+    width: 95%;
+    height: 265px;
+    background: #E4E4E4;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+}
+
+main>:nth-child(1)>:nth-child(2)>:nth-child(4)>:nth-child(1){
+    width: 97%;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    background: white;
+}
+
+main>:nth-child(1)>:nth-child(2)>:nth-child(4)>:nth-child(1)>h4{
+    margin: 10px 0 10px 10px;
+    width: 30%;
+    top: 0;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    background: white;
+    color: #444444;
+    font-size: 17px;
+    border-bottom: 1.5px solid #cbcbcb;
+    height: 20px;
+}
+
+main>:nth-child(1)>:nth-child(2)>:nth-child(4)>:nth-child(2){
+    width: 97%;
+    height: 77%;
+    position: absolute;
+    left: 0;
+    /*top: 0px;*/
+    bottom: 5px;
+    right: 0;
+    margin: auto;
+    background: white;
+    overflow: auto;
+
+}
+
+main>:nth-child(1)>:nth-child(2)>:nth-child(4)>:nth-child(2)>table{
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+
+main>:nth-child(1)>:nth-child(2)>:nth-child(4)>:nth-child(2)>table>thead{
+    text-align: center;
+}
+
+main>:nth-child(1)>:nth-child(2)>:nth-child(4)>:nth-child(2)>table>thead>tr{
+    background: #009879;
+    height: 25px;
+    color: white;
+    font-weight: normal;
+    font-family: Roboto;
+}
+
+main>:nth-child(1)>:nth-child(2)>:nth-child(4)>:nth-child(2)>table>thead>tr>th, td{
+    padding: 8px 15px;
+}
+
+main>:nth-child(1)>:nth-child(2)>:nth-child(4)>:nth-child(2)>table>tbody>tr{
+    border-bottom: 1px solid #dddddd;
+}
+
+main>:nth-child(1)>:nth-child(2)>:nth-child(4)>:nth-child(2)>table>tbody>tr:nth-child(even){
+    background: #f3f3f3;
+}
+
+main>:nth-child(1)>:nth-child(2)>:nth-child(4)>:nth-child(2)>table>tbody>tr:last-of-type{
+    border-bottom: 2px solid #009879;
+}
+
+
+
+main>:nth-child(2){
+    background: #EBEBEB;
+    height: 306px;
+    text-align: center;
+}
+
+main>:nth-child(2)>article{
+    width: 98%;
+    height: 94%;
+    margin-top: 5px;
+    background: white;
+    display: inline-block;
+    position: relative;
+}
+
+main>:nth-child(2)>article>h3{
+    margin: 0;
+    font-size: 20px;
+    text-align: left;
+    font-family: "Avenir LT Std";
+}
+
+main>:nth-child(2)>article>:nth-child(2){
+    width: 97%;
+    height: 250px;
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    right: 0;
+    margin: auto;
+    background: white;
+    overflow: auto;
+}
+
+main>:nth-child(2)>article>:nth-child(2)>table{
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+
+main>:nth-child(2)>article>:nth-child(2)>table>thead>tr{
+    background: #009879;
+    height: 25px;
+    color: white;
+    font-weight: normal;
+    font-family: Roboto;
+}
+
+main>:nth-child(2)>article>:nth-child(2)>table>thead>tr>th, td{
+    padding: 8px 15px;
+}
+
+main>:nth-child(2)>article>:nth-child(2)>table>tbody>tr{
+    border-bottom: 1px solid #dddddd;
+}
+
+main>:nth-child(2)>article>:nth-child(2)>table>tbody>tr:nth-child(even){
+    background: #f3f3f3;
+}
+
+main>:nth-child(2)>article>:nth-child(2)>table>tbody>tr:last-of-type{
+    border-bottom: 2px solid #009879;
+}

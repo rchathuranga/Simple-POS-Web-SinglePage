@@ -1,0 +1,120 @@
+
+@media all and (max-width: 768px) {
+
+    nav {
+        width: 100%;
+        height: 102px;
+        z-index: 100;
+        top: 0;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    nav > :nth-child(1) {
+        height: 70%;
+        width: auto;
+        left: 10px;
+        right: unset;
+    }
+
+    nav > :nth-child(2) {
+        height: 55%;
+        width: auto;
+        left: unset;
+        top: 10px;
+        right: 10px;
+    }
+
+
+    nav > a {
+        color: white;
+    }
+
+    nav > a > div {
+        font-size: 10px;
+        position: relative;
+        top: 80px;
+        width: 98%;
+        height: 40px;
+        margin: 0 0 0 0;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        background: #213667;
+        color: white;
+        border-top: 2px solid white;
+        border-left: 1px solid white;
+        border-right: 1px solid white;
+    }
+
+    nav > a > div > h3 {
+        padding-top: 12px;
+        color: white;
+    }
+
+    nav > :nth-child(6) > div > h3 {
+        padding-top: 5px;
+    }
+
+    main {
+        position: relative;
+        top: 0;
+        left: 0;
+        height: 1700px;
+        width: 100%;
+    }
+
+    header {
+        display: none;
+    }
+
+
+    main > :nth-child(1) {
+        top: 130px;
+    }
+
+    main > :nth-child(1) > :nth-child(1) {
+        width: 100%;
+    }
+
+    main > :nth-child(1) > :nth-child(2) {
+        display: none;
+    }
+
+    main > :nth-child(1) > :nth-child(3) {
+        display: none
+    }
+
+
+    main > :nth-child(2) {
+        display: block;
+        top: 145px;
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    main>:nth-child(2)>article {
+        height: 235px;
+        margin-top: 20px;
+    }
+}
+
+@media all and (max-width: 632px){
+    main > :nth-child(2) {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    main>:nth-child(2)>article {
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 20px auto;
+    }
+
+    main>:nth-child(2)>:nth-child(1) {left: unset;}
+    main>:nth-child(2)>:nth-child(2) {left: unset;}
+    main>:nth-child(2)>:nth-child(3) {left: unset;}
+    main>:nth-child(2)>:nth-child(4) {left: unset;}
+}
